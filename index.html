@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="gamefunk.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="one"  onclick = infAboutMyHero()>Информация о герое</div>
+            <div class="two" onclick = shop()>Магазин</div>
+            <div class="reset" onclick = resetGame()>Перезагрузка</div>
+            <div class="exit" onclick = exitGame()>Выход</div>
+        </div>
+
+
+        <div class="center">
+            <div class="stats" onclick = statFirst()>Посмотреть статы слабого</div>
+            <div class="stats" onclick = statSecond()>Посмотреть статы среднего</div>
+            <div class="stats" onclick = statThird()>Посмотреть статы сложного</div>
+
+        </div>
+
+
+        <div class="right">
+            <div class="three" onclick = versus(firstEnemy)>Слабый злодей</div>
+            <div class="four" onclick = versus(secondEnemy)>Средний злодей</div>
+            <div class="five" onclick = versus(thirdEnemy)>Сильный злодей</div>
+        </div>    
+
+    </div>        
+</body>
+</html>
